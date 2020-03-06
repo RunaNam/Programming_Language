@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FlowEx28",
+            "request": "launch",
+            "mainClass": "FlowEx28",
+            "projectName": "ja_35ed849e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FlowEx25",
+            "request": "launch",
+            "mainClass": "FlowEx25",
+            "projectName": "ja_35ed849e"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FlowEx25",
+            "request": "launch",
+            "mainClass": "Chap4.FlowEx25",
+            "projectName": "ja_35ed849e"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-A<ja_35ed849e>",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "ja_35ed849e"
+        }
+    ]
+}
