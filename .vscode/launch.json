@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FinalTest1_3",
+            "request": "launch",
+            "mainClass": "FinalTest1_3",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exception12_16",
+            "request": "launch",
+            "mainClass": "Exception12_16",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exception8",
+            "request": "launch",
+            "mainClass": "Exception8",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exception4_8",
+            "request": "launch",
+            "mainClass": "Exception4_8",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exception1_3",
+            "request": "launch",
+            "mainClass": "Exception1_3",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exception1_3",
+            "request": "launch",
+            "mainClass": "Chap8.Exception1_3",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InnerEx1_4",
             "request": "launch",
             "mainClass": "InnerEx1_4",
