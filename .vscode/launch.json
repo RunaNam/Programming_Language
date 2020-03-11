@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InnerEx1_4",
+            "request": "launch",
+            "mainClass": "InnerEx1_4",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InnerEx1_4",
+            "request": "launch",
+            "mainClass": "Chap7.InnerEx1_4",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RepairableTest",
+            "request": "launch",
+            "mainClass": "RepairableTest",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PolyArgumentTest",
+            "request": "launch",
+            "mainClass": "PolyArgumentTest",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BindingTest1_3",
+            "request": "launch",
+            "mainClass": "BindingTest1_3",
+            "projectName": "ja_db094bfa"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ArrayEx18_23",
             "request": "launch",
             "mainClass": "ArrayEx18_23",
