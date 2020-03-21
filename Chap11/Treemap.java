@@ -1,5 +1,20 @@
 import java.util.*;
 
+
+static class ValueComparator implements Comparator {
+    public int compare (Object o1, Object o2){
+        if (o1 instanceof Map.Entry && o2 instanceof Map.Entry){
+            Map.Entry e1 = (Map.Entry) o1;
+            Map.Entry e2 = (Map.Entry) o2;
+
+            int v1 = ((Integer)e1.getValue()).intValue();
+            int v2 = ((Integer)e2.getValue()).intValue();
+            return v2-v1;
+        }
+        return -1;
+    }
+}
+
 class TreeMapEx{
     public static void main (String[] args){
         String[] data ={"a","a","a","b","d","e","f","d","d","b"};
@@ -37,16 +52,3 @@ class TreeMapEx{
     }
 }
 
-public static class ValueComparator implements Comparator {
-    public int compare (Object o1, Object o2){
-        if (o1 instanceof Map.Entry && o2 instanceof Map.Entry){
-            Map.Entry e1 = (Map.Entry) o1;
-            Map.Entry e2 = (Map.Entry) o2;
-
-            int v1 = ((Integer)e1.getValue()).intValue();
-            int v2 = ((Integer)e2.getValue()).intValue();
-            return v2-v1;
-        }
-        return -1;
-    }
-}
