@@ -3,37 +3,39 @@
 
 #include "Member.h"
 
-typedef struct __node {
-	Member data;			/* 데이터 */
-	struct __node *next;	/* 뒤쪽 포인터(뒤쪽 노드에 대한 포인터) */
+typedef struct  __node
+{
+    Member data;
+    struct __node *next;
 } Node;
 
 typedef struct {
-	Node *head;			/* 머리 노드에 대한 포인터 */
-	Node *crnt;			/* 선택한 노드에 대한 포인터 */
-} List;
+    Node* head;
+    Node* crnt;
+}List;
 
-void Initialize(List *list);
+void Initialize(List* list);
 
-Node *search(List *list, const Member *x, int compare(const Member *x, const Member *y));
+Node *search (List* list, const Member* x, int cpmpare(const Member* x, const Member* y));
 
-void InsertFront(List *list, const Member *x);
+void InsertFront(List* list, const Member* x);
 
-void InsertRear(List *list, const Member *x);
+void InsertRear(List* list, const Member*x);
 
-void RemoveFront(List *list);
+void RemoveFront(List* list);
 
-void RemoveRear(List *list);
+void RemoveRear(List* list);
 
-void RemoveCurrent(List *list);
+void RemoveCurrent(List* list);
 
-void Clear(List *list);
+void Clear(List* list);
 
-void PrintCurrent(const List *list);
+void PrintCurrent(const List* list);
 
-void PrintLnCurrent(const List *list);
+void PrintLnCurrent(const List* list);
 
-void Print(const List *list);
+void Print(const List* list);
 
-void Terminate(List *list);
+void Terminate(List* list);
+
 #endif

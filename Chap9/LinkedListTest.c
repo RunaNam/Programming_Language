@@ -33,7 +33,6 @@ Menu SelectMenu(void)
 	return (Menu)ch;
 }
 
-/*--- 메인 ---*/
 int main(void)
 {
 	Menu menu;
