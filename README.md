@@ -9,3 +9,4 @@
 - JavaScript
   - HeadFirst JavaScript
 - Node.js
+- React
